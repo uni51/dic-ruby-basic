@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css_exam01.css">    
+    <title>株式会社DIVE</title>
+  </head>
+  <body>
+    <div class="container">
+      
+    <!-- header -->      
+    <header class="header clearfix">
+        <a href="index.html">
+            <img src="./images/logo.png" class="logo_image">
+        </a>
+        <nav>
+            <ul class="top_menu clearfix">
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="business.html">事業内容</a></li>
+              <li><a href="company.html">会社概要</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- main visual -->
+    <img src="./images/business.png" class="image_area">
+    
+    <!-- contents area -->
+    <div class="wrapper clearfix">
+        
+        <!-- side menu -->
+            <nav class="side_menu clearfix">
+                <ul>
+                  <li><a href="business.html">事業内容</a></li>
+                  <li><a href="company.html">会社概要</a></li>
+                  <li class="point"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+
+        <!-- content -->
+        <article class="content">
+          <table class="contact">
+            <tr>
+              <th>お名前</th>
+              <td><input id="name" type="text" name="name" class="re-width"></td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th>
+              <td><input id="email" type="text" name="email" class="re-width"></td>
+            </tr>
+            <tr>
+              <th>性別</th>
+              <td><input id="sex" type="checkbox" name="sex">男<input type="checkbox">女</td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td><textarea id="toiawase" name="toiawase" rows="2" class="re-width"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><div class="txt-center"><input id="submit_button" type="submit" value="送信"></div></td>
+            </tr>
+          </table>
+        </article>
+    
+    <!-- end wrapper -->    
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+          <p>Copyright © 2016 DIVE INC All RIGHTS RESERVED.</p>
+    </footer>
+
+    <!-- end container -->
+    </div>
+  </body>
+</html>

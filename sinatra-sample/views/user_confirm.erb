@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/users.css">    
+  </head>
+  <body>
+    <h1>登録確認</h1>
+    <p><a href="/users">新規登録に戻る</a></p>
+    <p>お名前：<%= @name %></p>
+    <p>メールアドレス：<%= @email %></p>
+    <p>パスワード：
+    <% strlen = @password.length %>
+    <% for num in 1..strlen do %>
+    <%= "*" %>
+    <% end %>
+    </p>    
+  </body>
+</html>
